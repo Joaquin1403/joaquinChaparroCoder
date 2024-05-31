@@ -1,0 +1,175 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDF4E3; /* Color crema para el fondo */
+    color: #333333; /* Color negro para el texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #1C1C1C; /* Color negro para el fondo del header */
+    color: #FDF4E3; /* Color crema para el texto del header */
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #FDF4E3; /* Color amarillo crema para los enlaces */
+}
+
+.nav-links a:hover {
+    color: #4d5f5fb2; /* Color contrastante para el hover */
+}
+
+/* Estilos para el cuerpo de la página */
+.text-box {
+    padding: 20px;
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: block;
+    margin: 20px auto;
+    max-width: 35%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.gallery div {
+    flex: 0 1 calc(33.333% - 20px);
+}
+
+.gallery img {
+    width: 70%;
+    height: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1C1C1C; /* Fondo negro */
+    color: #FDF4E3; /* Texto crema */
+    border: 1px solid #2A9D8F; /* Borde verde */
+}
+
+.form-control::placeholder {
+    color: #f5e3b5; /* Placeholder amarillo crema */
+}
+
+/* Estilos para el formulario */
+.form-container {
+    padding: 20px;
+    background-color: #333333;
+    color: #FDF4E3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit {
+    background-color: #2A9D8F; /* Botón verde */
+    color: #FDF4E3; /* Texto crema */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #264653; /* Botón verde oscuro en hover */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #1C1C1C; /* Fondo negro */
+    color: #FDF4E3; /* Texto crema */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos */
+.discografia {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.discografia iframe {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    height: 352px;
+}
+
+/* Estilos para la lista de tours */
+.tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tour-item {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 0 1 calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tour-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tour-item li {
+    margin-bottom: 10px;
+}
+
+.tour-item li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.tour-item li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
